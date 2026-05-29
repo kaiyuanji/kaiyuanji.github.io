@@ -1,0 +1,61 @@
+body {
+  max-width: 620px;
+  margin: 36px auto;
+  padding: 0 20px 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  line-height: 1.45;
+  color: #000;
+  background: #fff;
+}
+
+a { color: #0000EE; }
+
+/* ── Top nav ── */
+nav {
+  margin-bottom: 28px;
+  font-size: 18px;
+}
+nav a { margin-right: 14px; text-decoration: none; color: #555; }
+nav a:hover { color: #000; }
+nav a.active { color: #000; font-weight: bold; text-decoration: none; }
+
+/* ── Header: photo left, name right ── */
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+.header img { width: 120px; flex-shrink: 0; }
+.header-text { padding-top: 4px; }
+
+h1 { font-size: 28px; margin: 0 0 3px 0; }
+h2.subtitle { font-size: 17px; font-weight: normal; font-style: normal; margin: 0 0 10px 0; }
+
+/* ── Section titles ── */
+h3 { font-size: 21px; margin: 24px 0 4px 0; }
+
+/* ── Profile links under Papers heading ── */
+.profile-links { margin: 2px 0 10px 0; }
+
+/* ── Body ── */
+p  { margin: 0 0 7px 0; }
+ul { margin: 0 0 7px 0; padding-left: 18px; }
+li { margin-bottom: 2px; }
+
+/* ── Paper entries ── */
+.paper { margin-top: 14px; }
+
+/* ── One-sentence summary ── */
+.summary-inline { color: #444; font-size: 15px; }
+
+/* ── Abstract toggle ── */
+.abstract {
+  display: none;
+  margin: 5px 0 3px 14px;
+  padding-left: 10px;
+  border-left: 2px solid #bbb;
+  font-size: 15px;
+  line-height: 1.45;
+}
