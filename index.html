@@ -40,19 +40,7 @@
   <h3 class="section-title">Papers</h3>
   <p class="profile-links"><a href="https://arxiv.org/a/ji_k_2.html">arXiv</a> · <a href="https://scholar.google.com/citations?user=j7s9jhcAAAAJ">Google Scholar</a></p>
 
-  <!-- Newest first. Copy a .paper block to add more. -->
-
-  <div class="paper">
-    <b>Beyond Hoeffding and Chernoff: Trading conclusiveness for advantages in quantum hypothesis testing</b><br>
-    <u>Kaiyuan Ji</u>, Bartosz Regula<br>
-    <i>Preprint</i> (2025)<br>
-    <i class="summary-inline">✦ An arbitrarily small leeway for inconclusiveness breaks textbook limits on asymptotic hypothesis testing.</i><br>
-    <a href="https://arxiv.org/abs/2510.07601">arXiv:2510.07601</a>,
-    <a href="#" onclick="toggle(this);return false;">[abstract]</a>
-    <div class="abstract">
-      The ultimate limits of quantum state discrimination are often thought to be captured by asymptotic bounds that restrict the achievable error probabilities, notably the quantum Chernoff and Hoeffding bounds. Here we study hypothesis testing protocols that are permitted a probability of producing an inconclusive discrimination outcome, and investigate their performance when this probability is suitably constrained. We show that even by allowing an arbitrarily small probability of inconclusiveness, the limits imposed by the quantum Hoeffding and Chernoff bounds can be significantly exceeded. This completely circumvents the conventional trade-offs between error exponents in hypothesis testing while incurring only a vanishingly small overhead over conventional approaches. Such improvements over standard state discrimination are robust and can be obtained even when an exponentially vanishing probability of inconclusive outcomes is demanded. Relaxing the constraints on the inconclusive probability can enable even larger advantages, but this comes at a price. We show a 'strong converse' property of this setting: targeting error exponents beyond those achievable with vanishing inconclusiveness necessarily forces the probability of inconclusive outcomes to converge to one. By exactly quantifying the rate of this convergence, we give a complete characterisation of the trade-offs between error exponents and rates of conclusive outcome probabilities. Overall, our results provide a comprehensive asymptotic picture of how the allowance for inconclusive measurement outcomes reshapes optimal quantum hypothesis testing.
-    </div>
-  </div>
+  <!-- Newest first by last arXiv version date. -->
 
   <div class="paper">
     <b>Retrocausal capacity of a quantum channel: Communicating through noisy closed timelike curves</b><br>
@@ -70,15 +58,40 @@
   </div>
 
   <div class="paper">
+    <b>Barycentric bounds on the error exponents of quantum hypothesis exclusion</b><br>
+    <u>Kaiyuan Ji</u>, Hemant K. Mishra, Milán Mosonyi, Mark M. Wilde<br>
+    <i>IEEE Transactions on Information Theory</i> 72, 2391 (2026)<br>
+    <i class="summary-inline">✦ Ruling out a wrong candidate is easier than identifying the right one, but not without limits.</i><br>
+    <a href="https://arxiv.org/abs/2407.13728">arXiv:2407.13728</a>,
+    <a href="https://doi.org/10.1109/TIT.2026.3661340">journal</a>,
+    <a href="#" onclick="toggle(this);return false;">[abstract]</a>
+    <div class="abstract">
+      Quantum state exclusion is an operational task with application to ontological interpretations of quantum states. In such a task, one is given a system whose state is randomly selected from a finite set, and the goal is to identify a state from the set that is not the true state of the system. An error occurs if and only if the state identified is the true state. In this paper, we study the optimal error probability of quantum state exclusion and its error exponent from an information-theoretic perspective. Our main finding is a single-letter upper bound on the error exponent of state exclusion given by the multivariate log-Euclidean Chernoff divergence, and we prove that this improves upon the best previously known upper bound. We also extend our analysis to quantum channel exclusion, and we establish a single-letter and efficiently computable upper bound on its error exponent, admitting the use of adaptive strategies. We derive both upper bounds, for state and channel exclusion, based on one-shot analysis and formulate them as a type of multivariate divergence measure called a barycentric Chernoff divergence. Moreover, our result on channel exclusion has implications in two important special cases. First, when there are two hypotheses, our result provides the first known efficiently computable upper bound on the error exponent of symmetric binary channel discrimination. Second, when all channels are classical, we show that our upper bound is achievable by a parallel strategy, thus solving the exact error exponent of classical channel exclusion.
+    </div>
+  </div>
+
+  <div class="paper">
     <b>Fundamental limits for thermodynamic control with quantum feedback</b><br>
     <u>Kaiyuan Ji</u>, Gilad Gour, Mark M. Wilde<br>
-    <i>Preprint</i> (2025)<br>
+    <i>Preprint</i> (2026)<br>
     <i class="summary-inline">✦ What a fully quantum Maxwell's demon can and cannot do.</i><br>
     <a href="https://arxiv.org/abs/2503.09012">arXiv:2503.09012</a>,
     <a href="#" onclick="toggle(this);return false;">[abstract]</a>,
     <a href="slides/Feedback_BIID.pdf">[slides]</a>
     <div class="abstract">
       The study of feedback control inspired by Maxwell's demon is central to the understanding of the relationship between thermodynamics and information. In this paper, we establish fundamental lower limits on the work costs of system conversion with quantum feedback, where quantum side information acquired in advance can be fed back to the system coherently by a controller. From two basic operational principles that every physically admissible feedback-control scheme should satisfy, we derive the tightest possible bounds on the single-shot work of formation and extractable work of an arbitrary quantum system given arbitrary quantum side information held by the controller. These bounds are expressed in terms of information measures simultaneously generalizing conditional entropies, mutual informations, and relative entropies. In the asymptotic limit, they lead to a generalized second law of thermodynamics with quantum feedback, featuring a conditional Helmholtz free energy. Our findings also provide precise thermodynamic meanings for the negativity of single-shot conditional entropies and resolve an open problem in the axiomatic reconstruction of such conditional entropies.
+    </div>
+  </div>
+
+  <div class="paper">
+    <b>Beyond Hoeffding and Chernoff: Trading conclusiveness for advantages in quantum hypothesis testing</b><br>
+    <u>Kaiyuan Ji</u>, Bartosz Regula<br>
+    <i>Preprint</i> (2025)<br>
+    <i class="summary-inline">✦ An arbitrarily small leeway for inconclusiveness breaks textbook limits on asymptotic hypothesis testing.</i><br>
+    <a href="https://arxiv.org/abs/2510.07601">arXiv:2510.07601</a>,
+    <a href="#" onclick="toggle(this);return false;">[abstract]</a>
+    <div class="abstract">
+      The ultimate limits of quantum state discrimination are often thought to be captured by asymptotic bounds that restrict the achievable error probabilities, notably the quantum Chernoff and Hoeffding bounds. Here we study hypothesis testing protocols that are permitted a probability of producing an inconclusive discrimination outcome, and investigate their performance when this probability is suitably constrained. We show that even by allowing an arbitrarily small probability of inconclusiveness, the limits imposed by the quantum Hoeffding and Chernoff bounds can be significantly exceeded. This completely circumvents the conventional trade-offs between error exponents in hypothesis testing while incurring only a vanishingly small overhead over conventional approaches. Such improvements over standard state discrimination are robust and can be obtained even when an exponentially vanishing probability of inconclusive outcomes is demanded. Relaxing the constraints on the inconclusive probability can enable even larger advantages, but this comes at a price. We show a 'strong converse' property of this setting: targeting error exponents beyond those achievable with vanishing inconclusiveness necessarily forces the probability of inconclusive outcomes to converge to one. By exactly quantifying the rate of this convergence, we give a complete characterisation of the trade-offs between error exponents and rates of conclusive outcome probabilities. Overall, our results provide a comprehensive asymptotic picture of how the allowance for inconclusive measurement outcomes reshapes optimal quantum hypothesis testing.
     </div>
   </div>
 
@@ -97,15 +110,16 @@
   </div>
 
   <div class="paper">
-    <b>Barycentric bounds on the error exponents of quantum hypothesis exclusion</b><br>
-    <u>Kaiyuan Ji</u>, Hemant K. Mishra, Milán Mosonyi, Mark M. Wilde<br>
-    <i>IEEE Transactions on Information Theory</i> 72, 2391 (2026)<br>
-    <i class="summary-inline">✦ Ruling out a wrong candidate is easier than identifying the right one, but not without limits.</i><br>
-    <a href="https://arxiv.org/abs/2407.13728">arXiv:2407.13728</a>,
-    <a href="https://doi.org/10.1109/TIT.2026.3661340">journal</a>,
-    <a href="#" onclick="toggle(this);return false;">[abstract]</a>
+    <b>Entropic and operational characterizations of dynamic quantum resources</b><br>
+    <u>Kaiyuan Ji</u>, Eric Chitambar<br>
+    <i>IEEE Transactions on Information Theory</i> 71, 7753 (2025)<br>
+    <i class="summary-inline">✦ A trinity in dynamic resource theories: robustness measures, conditional entropies, and guessing games.</i><br>
+    <a href="https://arxiv.org/abs/2112.06906">arXiv:2112.06906</a>,
+    <a href="https://doi.org/10.1109/TIT.2025.3559765">journal</a>,
+    <a href="#" onclick="toggle(this);return false;">[abstract]</a>,
+    <a href="slides/Entropy_ISIT.pdf">[slides]</a>
     <div class="abstract">
-      Quantum state exclusion is an operational task with application to ontological interpretations of quantum states. In such a task, one is given a system whose state is randomly selected from a finite set, and the goal is to identify a state from the set that is not the true state of the system. An error occurs if and only if the state identified is the true state. In this paper, we study the optimal error probability of quantum state exclusion and its error exponent from an information-theoretic perspective. Our main finding is a single-letter upper bound on the error exponent of state exclusion given by the multivariate log-Euclidean Chernoff divergence, and we prove that this improves upon the best previously known upper bound. We also extend our analysis to quantum channel exclusion, and we establish a single-letter and efficiently computable upper bound on its error exponent, admitting the use of adaptive strategies. We derive both upper bounds, for state and channel exclusion, based on one-shot analysis and formulate them as a type of multivariate divergence measure called a barycentric Chernoff divergence. Moreover, our result on channel exclusion has implications in two important special cases. First, when there are two hypotheses, our result provides the first known efficiently computable upper bound on the error exponent of symmetric binary channel discrimination. Second, when all channels are classical, we show that our upper bound is achievable by a parallel strategy, thus solving the exact error exponent of classical channel exclusion.
+      We offer new methods for characterizing general closed and convex quantum resource theories, including dynamic ones, based on entropic concepts and operational tasks. We propose a resource-theoretic generalization of the quantum conditional min-entropy, termed the free conditional min-entropy (FCME), in the sense that it quantifies an observer's "subjective" degree of uncertainty about a quantum system given that the observer's information processing is limited to free operations of the resource theory. Using this generalized concept, we provide a complete set of entropic conditions for free convertibility between quantum states or channels in any closed and convex quantum resource theory. We also derive an information-theoretic interpretation for the resource global robustness of a state or a channel in terms of a mutual-information-like quantity based on the FCME. Apart from this entropic approach, we characterize dynamic resources by also analyzing their performance in operational tasks. We construct operationally meaningful and complete sets of resource monotones with these tasks, which enable faithful tests of free convertibility between quantum channels. Finally, we show that every well-defined robustness-based measure of a channel can be interpreted as an operational advantage of the channel over free channels in a communication task.
     </div>
   </div>
 
@@ -121,20 +135,6 @@
     <a href="slides/Postselection_BIID.pdf">[slides]</a>
     <div class="abstract">
       The single-letter characterisation of the entanglement-assisted capacity of a quantum channel is one of the seminal results of quantum information theory. In this paper, we consider a modified communication scenario in which the receiver is allowed an additional, 'inconclusive' measurement outcome, and we employ an error metric given by the error probability in decoding the transmitted message conditioned on a conclusive measurement result. We call this setting postselected communication and the ensuing highest achievable rates the postselected capacities. Here, we provide a precise single-letter characterisation of postselected capacities in the setting of entanglement assistance as well as the more general nonsignalling assistance, establishing that they are both equal to the channel's projective mutual information — a variant of mutual information based on the Hilbert projective metric. We do so by establishing bounds on the one-shot postselected capacities, with a lower bound that makes use of a postselected teleportation-based protocol and an upper bound in terms of the postselected hypothesis testing relative entropy. As such, we obtain fundamental limits on a channel's ability to communicate even when this strong resource of postselection is allowed, implying limitations on communication even when the receiver has access to postselected closed timelike curves.
-    </div>
-  </div>
-
-  <div class="paper">
-    <b>Entropic and operational characterizations of dynamic quantum resources</b><br>
-    <u>Kaiyuan Ji</u>, Eric Chitambar<br>
-    <i>IEEE Transactions on Information Theory</i> 71, 7753 (2025)<br>
-    <i class="summary-inline">✦ A trinity in dynamic resource theories: robustness measures, conditional entropies, and guessing games.</i><br>
-    <a href="https://arxiv.org/abs/2112.06906">arXiv:2112.06906</a>,
-    <a href="https://doi.org/10.1109/TIT.2025.3559765">journal</a>,
-    <a href="#" onclick="toggle(this);return false;">[abstract]</a>,
-    <a href="slides/Entropy_ISIT.pdf">[slides]</a>
-    <div class="abstract">
-      We offer new methods for characterizing general closed and convex quantum resource theories, including dynamic ones, based on entropic concepts and operational tasks. We propose a resource-theoretic generalization of the quantum conditional min-entropy, termed the free conditional min-entropy (FCME), in the sense that it quantifies an observer's "subjective" degree of uncertainty about a quantum system given that the observer's information processing is limited to free operations of the resource theory. Using this generalized concept, we provide a complete set of entropic conditions for free convertibility between quantum states or channels in any closed and convex quantum resource theory. We also derive an information-theoretic interpretation for the resource global robustness of a state or a channel in terms of a mutual-information-like quantity based on the FCME. Apart from this entropic approach, we characterize dynamic resources by also analyzing their performance in operational tasks. We construct operationally meaningful and complete sets of resource monotones with these tasks, which enable faithful tests of free convertibility between quantum channels. Finally, we show that every well-defined robustness-based measure of a channel can be interpreted as an operational advantage of the channel over free channels in a communication task.
     </div>
   </div>
 
